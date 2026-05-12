@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Monowar Islam — ML Engineer &amp; CV Researcher | Academic Portfolio</title>
+  <meta name="description"
+    content="Academic portfolio of Monowar Islam — Machine Learning Engineer, Deep Learning Engineer, and Computer Vision Researcher. CSE student at Faridpur Engineering College." />
+  <meta name="keywords"
+    content="Monowar Islam, machine learning, deep learning, computer vision, researcher, portfolio, CSE, Bangladesh" />
+  <meta name="author" content="Monowar Islam" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Monowar Islam — ML Engineer & CV Researcher" />
+  <meta property="og:description"
+    content="Academic portfolio showcasing research, publications, projects, and professional experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="profile.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div id="sidebar-content"></div>
+  </aside>
+
+  <!-- Sidebar Overlay (mobile) -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <!-- Top Navigation -->
+    <nav class="top-nav" role="navigation" aria-label="Main navigation">
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#competitions">Competitions</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="content-wrapper">
+
+      <!-- Home / Hero -->
+      <section class="hero" id="home">
+        <div id="hero-content"></div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-user"></i> About</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="about-grid fade-in" id="about-content"></div>
+      </section>
+
+      <!-- Publications -->
+      <section class="section" id="publications">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-book-open"></i> Publications</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="publications-content"></div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="projects-content"></div>
+      </section>
+
+      <!-- Competitions -->
+      <section class="section" id="competitions">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-trophy"></i> Problem Solving &amp; Competitions</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="competitions-content"></div>
+      </section>
+
+      <!-- Blogs -->
+      <section class="section" id="blogs">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-pen-nib"></i> Blogs / Articles</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="blogs-content"></div>
+      </section>
+
+      <!-- Education -->
+      <section class="section" id="education">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="education-content"></div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="section" id="certifications">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-certificate"></i> Certifications</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="certifications-content"></div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="section-header fade-in">
+          <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="contact-content"></div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2025 Monowar Islam. All rights reserved.</p>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
